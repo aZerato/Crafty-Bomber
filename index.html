@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+    <title>Bomberman Online</title>
+    <script type="text/javascript" src="lib/crafty.js"></script>
+    <script type="text/javascript" src="src/components.js"></script>
+    <script type="text/javascript" src="src/scenes.js"></script>
+    <script type="text/javascript" src="src/game.js"></script>
+
+    <script type="text/javascript">
+        window.addEventListener('load', Game.start);
+    </script>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+    <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+    <div class="menu">
+        <div class="container clearfix">
+
+            <div id="logo" class="grid_3">
+                <img src="assets/title.png">
+            </div>
+
+            <div id="nav" class="grid_9 omega">
+                <ul class="navigation">
+                    <li data-slide="1">How To Play ?</li>
+                    <li data-slide="2">Rules</li>
+                    <li data-slide="3">The Game</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+        <div class="container clearfix">
+
+            <div id="content" class="grid_6">
+                <h1>How To Play ?</h1>
+                <h2>Get ready to explose !</h2>
+                <p>Player 1. </p>
+                <p>Player moves : with z,q,s,d & space for depose bomb !</p>
+            </div>
+            <div id="content" class="grid_6 omega">
+                <h1>&nbsp;</h1>
+                <h2>&nbsp;</h2>
+                <p>Player 2. </p>
+                <p>Player moves : with Arrays & 0 of numpad for depose bomb !</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+        <div class="container clearfix">
+
+            <div id="content" class="grid_6">
+                <h1>Rules</h1>
+                <h2>Defeat your ennemy !</h2>
+                <p><img src="assets/bonus.png" /> Bonus. improve bomb explosion ! </p>
+
+            </div>
+            <div id="content" class="grid_6 omega">
+                <h1>&nbsp;</h1>
+                <h2>&nbsp;</h2>
+                <p><img src="assets/bomb.png" /> <img src="assets/bomb2.png" /> Bombs. Be caution ! </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+        <div class="container clearfix">
+
+            <div id="content" class="grid_12">
+                <h1>The Game</h1>
+                <h2>Click to launch the game !</h2>
+                <!-- Crafty Element -->
+                <div id="cr-stage"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+</body>
+</html>
